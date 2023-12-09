@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy local files to the app folder
-COPY . .
+COPY ./
 
 # Build app
 RUN npm run build
